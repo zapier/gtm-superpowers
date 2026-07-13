@@ -1,0 +1,53 @@
+{
+  "name": "gtm-cheat-codes",
+  "version": "0.1.0",
+  "description": "GTM Cheat Codes for Codex. Built and maintained by Zapier.",
+  "author": {
+    "name": "Zapier",
+    "email": "support@zapier.com",
+    "url": "https://zapier.com"
+  },
+  "homepage": "https://github.com/zapier/gtm-cheat-codes",
+  "repository": "https://github.com/zapier/gtm-cheat-codes",
+  "license": "MIT",
+  "keywords": [
+    "gtm",
+    "marketing",
+    "sales",
+    "customer-support",
+    "customer-advocacy",
+    "content-ops",
+    "legal-operations",
+    "agent-skills",
+    "zapier"
+  ],
+  "skills": [
+    "./skills/content-ops/",
+    "./skills/customer-advocacy/",
+    "./skills/customer-support/",
+    "./skills/gtm-ops/",
+    "./skills/legal-operations/",
+    "./skills/marketing/",
+    "./skills/sales-revops/"
+  ],
+  "interface": {
+    "displayName": "GTM Cheat Codes",
+    "shortDescription": "Reviewable agent workflows for GTM, sales, and customer operations teams.",
+    "longDescription": "The coding-agent skills Zapier GTM teams use to turn scattered context into reviewable work products. Covers marketing, sales / RevOps, customer support, customer advocacy, content ops, legal ops, and cross-functional GTM ops — with human approval gates for anything that writes to a system of record.",
+    "developerName": "Zapier",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/zapier/gtm-cheat-codes",
+    "privacyPolicyURL": "https://zapier.com/privacy",
+    "termsOfServiceURL": "https://zapier.com/tos",
+    "defaultPrompt": [
+      "Draft a customer story from this approved interview transcript",
+      "Triage our shared media inbox and flag anything urgent",
+      "Rank my target accounts by why-now signals and recommend the next move"
+    ],
+    "brandColor": "#FF4F00"
+  }
+}

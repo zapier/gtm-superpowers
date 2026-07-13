@@ -49,6 +49,30 @@ For a plain-English overview of each skill, start with `docs/vp-marketing-skill-
 - `templates/`
 - `docs/`
 
+## Install
+
+### Claude Code
+
+```
+claude plugin marketplace add zapier/marketplace
+claude plugin install gtm-cheat-codes@zapier
+```
+
+### OpenAI Codex
+
+```
+codex plugin marketplace add zapier/marketplace
+codex plugin add gtm-cheat-codes@zapier
+```
+
+### Cursor, Copilot, and other assistants
+
+The skills conform to [agentskills.io](https://agentskills.io) so any conformant runtime can load them directly. For tools without native agentskills.io support, clone the repo and reference the relevant `SKILL.md` from your assistant's rules or instructions file (`.cursorrules`, `AGENTS.md`, `.github/copilot-instructions.md`, etc.):
+
+```
+git clone https://github.com/zapier/gtm-cheat-codes.git
+```
+
 ## How To Use It
 
 1. Start with `docs/vp-marketing-skill-breakdown.md` for the business-level overview.
